@@ -1,0 +1,1 @@
+require 'faa/asciidoctor/extension'
