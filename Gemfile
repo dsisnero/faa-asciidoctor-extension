@@ -4,5 +4,4 @@ source "https://rubygems.org"
 gemspec
 
 gem "pry-byebug", "~> 3.7", :groups => [:development, :test]
-
 gem "solargraph", "~> 0.34.0", :groups => [:development, :test]
