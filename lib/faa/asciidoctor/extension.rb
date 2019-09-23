@@ -4,7 +4,6 @@ require 'asciidoctor/extensions'
 # require 'pry'
 module Faa
   module Asciidoctor
-    VERSION = '0.0.6'.freeze
 
     include ::Asciidoctor
     class CwpMacro < Extensions::InlineMacroProcessor

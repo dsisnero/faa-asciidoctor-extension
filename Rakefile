@@ -1,10 +1,28 @@
-require "bundler/gem_tasks"
-require "rake/testtask"
+# -*- ruby -*-
 
-Rake::TestTask.new(:test) do |t|
-  t.libs << "test"
-  t.libs << "lib"
-  t.test_files = FileList["test/**/*_test.rb"]
+require "rubygems"
+require "hoe"
+
+# Hoe.plugin :bundler
+# Hoe.plugin :compiler
+# Hoe.plugin :doofus
+# Hoe.plugin :gem_prelude_sucks
+# Hoe.plugin :gemspec2
+# Hoe.plugin :git
+# Hoe.plugin :inline
+# Hoe.plugin :minitest
+# Hoe.plugin :racc
+# Hoe.plugin :rcov
+# Hoe.plugin :rdoc
+# Hoe.plugin :rubygems
+# Hoe.plugin :travis
+# Hoe.plugin :yard
+
+Hoe.spec "faa-asciidoctor-extension" do
+  developer('Dominic Sisneros', 'dsisnero@gmail.com')
+  dependency('asciidoctor', '~> 2.0')
+
+  license "MIT" # this should match the license in the README
 end
 
-task :default => :test
+# vim: syntax=ruby

@@ -1,0 +1,9 @@
+=== 0.0.1 / 2019-09-19
+
+* 1 major enhancement
+
+  * Birthday!
+
+=== 0.0.6 / 2019-09-23
+
+* changed to hoe rakefile
