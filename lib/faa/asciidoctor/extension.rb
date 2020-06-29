@@ -15,7 +15,7 @@ module Faa
       def process(parent, target, _attributes)
         jcn = target || attrs['jcn'] || parent.document.attr('jcn', '')
         text = "jcn: #{jcn}"
-        target = %(https://corporateworkplan.faa.gov:7011/CWPPortal/faces/projects?jcn=#{jcn}&pageId=44&searchString=null)
+        target = %(https://corporateworkplan.faa.gov:7011/CWPPortal/faces/projects?pageId=null&searchString=null&jcn=1103807)
         parent.document.register :links, target
         (create_anchor parent, text, type: :link, target: target).render.to_s
       end
