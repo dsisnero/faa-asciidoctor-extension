@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    faa-asciidoctor-extension (0.0.8)
+    faa-asciidoctor-extension (0.3)
       asciidoctor (~> 2.0)
 
 GEM
