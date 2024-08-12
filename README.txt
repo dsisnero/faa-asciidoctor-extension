@@ -10,6 +10,16 @@ bugs  :: https://github.com/dsisnero/faa-asciidoctor-extension
 
 Extensions for Asciidoctor that help in FAA projects
 
+adds the following features:
+
+* A cwp inline macro
+
+cwp:{jcn}[See CWP for details]
+
+* A ormp inline extension
+
+ormp:{jcn}[Enter ORMP]
+
 == FEATURES/PROBLEMS:
 
 

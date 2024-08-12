@@ -1,1 +1,1 @@
-require 'faa/asciidoctor/extension'
+require "faa/asciidoctor/extension"
